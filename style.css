@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: #87ceeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+canvas {
+  flex: 1;
+  display: block;
+  background: #cceeff;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(0,0,0,0.2);
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.btn:active {
+  background: #ddd;
+}
